@@ -1,0 +1,20 @@
+.page-header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+.page-content{
+    margin-top: 44px;
+}
+.page-footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* 此处处理评价页css使用scoped模式无法更改上传图片删除icon样式问题 */
+.van-uploader__preview-delete{
+  font-size: large !important;
+}
