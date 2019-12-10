@@ -4,6 +4,9 @@
       <router-link to="/Search">
         <van-search placeholder="请输入搜索关键词" disabled="true"/>
       </router-link>
+      <div class="header-qrcode" @click="tzQrcode">
+        <img src="../assets/qrcode-icon.png">
+      </div>
     </div>
     <div class="page-content">
       <van-swipe :autoplay="3000" :height="213">
@@ -150,5 +153,21 @@ export default {
 .van-swipe-item img {
   float: left;
   width: 100%;
+}
+.page-header {
+  background: #ffffff;
+}
+.van-search {
+  float: left;
+  display: flex;
+  width: 90%;
+}
+.header-qrcode {
+  float: left;
+  margin-top: 5px;
+}
+.header-qrcode img {
+  width: 25px;
+  height: 25px;
 }
 </style>
