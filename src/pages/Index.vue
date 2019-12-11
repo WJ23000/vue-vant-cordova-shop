@@ -38,6 +38,7 @@ import Grid from "@/components/Grid";
 import Notice from "@/components/Notice";
 import GoodsList from "@/components/GoodsList";
 import ToTop from "@/components/ToTop";
+import {backbutton} from "@/utils/backbutton";
 export default {
   name: "Index",
   components: {
@@ -137,14 +138,16 @@ export default {
   created() {},
   mounted() {
     // 监听scroll事件
-    window.addEventListener('scroll', this.scrollToTop)
+    window.addEventListener('scroll', this.scrollToTop);
+    // 监听手机返回键退出app功能
+    backbutton();
   },
   destroyed() {
     // 销毁scroll事件
-    window.removeEventListener('scroll', this.scrollToTop)
+    window.removeEventListener('scroll', this.scrollToTop);
   },
   methods: {
-    //跳转扫描二维码
+    // 跳转扫描二维码
     tzQrcode: function() {
       // 扫一扫方法
       cordova.plugins.barcodeScanner.scan(
