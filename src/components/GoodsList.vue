@@ -3,12 +3,14 @@
     <div :class="viewWayData ? curActive1 : curActive2" v-for="(item,index) in goodsListData" :key="index">
       <router-link :to="{path:'/GoodsDetail',query: {goodsId: item.id}}">
         <div class="goods-icon">
-          <img v-lazy="item.icon">
+          <img v-lazy="item.pic">
         </div>
         <div class="goods-detail">
           <span class="goods-title">{{item.title}}</span>
-          <span class="goods-price">￥{{item.price}}</span>
-          <span class="goods-sell">已出售{{item.sell}}</span>
+          <div class="goods-option">
+            <span class="goods-price"><span class="symbol">￥</span>{{item.price}}</span>
+            <span class="goods-sell">已出售{{item.sell}}</span>
+          </div>
         </div>
       </router-link>
     </div>
@@ -79,6 +81,7 @@ export default {
 .goods-grid .goods-icon img {
   float: left;
   width: 100%;
+  height: 100px;
 }
 .goods-grid .goods-detail {
   float: left;
@@ -100,9 +103,13 @@ export default {
 }
 .goods-grid .goods-price {
   float: left;
+  margin-top: 2px;
   text-align: left;
   font-size: 14px;
   color: #3982f6;
+}
+.symbol{
+  font-size: 8px;
 }
 .goods-grid .goods-sell {
   float: right;
@@ -136,7 +143,7 @@ export default {
   float: left;
   width: 100%;
   margin: 2.5%;
-  height: 100px;
+  height: 70px;
   border-radius: 5px;
 }
 .goods-grid-flex .goods-detail {
@@ -158,6 +165,11 @@ export default {
   overflow: hidden;
   -webkit-line-clamp: 2;
 }
+.goods-grid-flex .goods-detail .goods-option{
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
 .goods-grid-flex .goods-price {
   float: left;
   text-align: left;
@@ -166,7 +178,6 @@ export default {
 }
 .goods-grid-flex .goods-sell {
   float: right;
-  margin-top: 2px;
   text-align: right;
   font-size: 12px;
   color: #aaaaaa;

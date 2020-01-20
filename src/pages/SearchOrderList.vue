@@ -30,6 +30,7 @@
 <script>
 import HeaderTwo from '@/components/HeaderTwo';
 import GoodsList from '@/components/GoodsList';
+import { goodsList } from "@/json/goods";
 export default {
   name: 'searchOrderList',
   components:{
@@ -48,56 +49,7 @@ export default {
       viewImg:  require('../assets/view-kj.png'),
       viewIndex: 0,
       viewWay: false,
-      goodsList: [
-        {
-          id: 1,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3001.00,
-          sell: 101,
-          url: '',
-          icon: require('../assets/shop1.png')
-        },
-        {
-          id: 2,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3002.00,
-          sell: 102,
-          url: '',
-          icon: require('../assets/shop1.png')
-        },
-        {
-          id: 3,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3003.00,
-          sell: 103,
-          url: '',
-          icon: require('../assets/shop1.png')
-        },
-        {
-          id: 4,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3004.00,
-          sell: 104,
-          url: '',
-          icon: require('../assets/shop1.png')
-        },
-        {
-          id: 5,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3005.00,
-          sell: 105,
-          url: '',
-          icon: require('../assets/shop1.png')
-        },
-        {
-          id: 6,
-          title: '智能飞行器高空拍摄续航6小时，高清在线生成远景视频，蓝色荣耀奢华版',
-          price: 3006.00,
-          sell: 106,
-          url: '',
-          icon: require('../assets/shop1.png')
-        }
-      ],
+      goodsList: goodsList,
       query1: "参数1",
       query2: "参数2",
       query3: "参数3",
