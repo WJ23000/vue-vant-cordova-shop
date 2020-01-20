@@ -76,7 +76,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .address-cell-list {
   float: left;
   width: 100%;

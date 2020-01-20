@@ -32,7 +32,7 @@ export default {
     } 
 }
 </script>
-<style>
+<style lang="stylus">
     .sudoku_row{
         display: flex;
         align-items: center;

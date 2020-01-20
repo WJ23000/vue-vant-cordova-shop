@@ -133,7 +133,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .order-cell{
   float: left;
   width: 100%;  

@@ -212,7 +212,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .comment-content{
     float: left;
     width: 100%;

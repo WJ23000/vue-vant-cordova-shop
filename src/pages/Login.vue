@@ -121,7 +121,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .page-content{
     background: #ffffff;
 }

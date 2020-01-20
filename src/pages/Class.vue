@@ -274,7 +274,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
   .content-left-right{
     position: absolute;
     top: 0px; 

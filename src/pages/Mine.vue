@@ -102,7 +102,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .child-view {
   background: #f2f2f2;
 }

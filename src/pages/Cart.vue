@@ -262,7 +262,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .cart-main{
   float: left;
   width: 88%;

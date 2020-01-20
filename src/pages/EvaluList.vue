@@ -96,7 +96,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .page{
   background: #f2f2f2;
 }

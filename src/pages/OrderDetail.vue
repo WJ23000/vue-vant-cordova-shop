@@ -137,7 +137,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .order-static{
   height: 90px;
   line-height: 90px;

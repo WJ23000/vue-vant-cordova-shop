@@ -45,7 +45,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
   .mine-cell{
     border-bottom: 1px solid #f2f2f2;
   }

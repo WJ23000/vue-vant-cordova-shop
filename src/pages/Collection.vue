@@ -251,7 +251,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 /* 使用固定高度解决vue-scroller无法上拉加载 */
 .collection-list{
   display: block;

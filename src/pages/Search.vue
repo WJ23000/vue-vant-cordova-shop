@@ -87,7 +87,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
   .search-history-title{
     float: left;
     width: 100%;

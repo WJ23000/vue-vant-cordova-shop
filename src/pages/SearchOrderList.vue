@@ -129,7 +129,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
 .sort-wrap{
   position: fixed;
   width: 100%;

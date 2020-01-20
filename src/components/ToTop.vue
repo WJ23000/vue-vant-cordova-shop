@@ -53,7 +53,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="stylus">
 .go-top {
   position: fixed;
   bottom: 60px;

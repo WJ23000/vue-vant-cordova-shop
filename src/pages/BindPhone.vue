@@ -100,7 +100,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
   .address-add-btn{
     position: fixed;
     bottom: 0;

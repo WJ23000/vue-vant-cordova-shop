@@ -56,7 +56,7 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="stylus">
 .goods-list {
   float: left;
   width: 100%;
