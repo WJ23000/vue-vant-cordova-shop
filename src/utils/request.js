@@ -32,7 +32,7 @@ export default async function fetch(options){
         param = {
             method: method,
             body: JSON.stringify(payload),
-            headers: headers,
+            headers: _headers,
         }
         return new Promise((resolve, reject) =>{ 
             Axios.post(url,Qs.stringify(param))
