@@ -404,6 +404,7 @@ export default {
 .van-swipe-item img{
   float: left;
   width: 100%;
+  height: 100%;
 }
 .detail {
   display: flex;

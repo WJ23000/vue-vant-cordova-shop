@@ -53,7 +53,8 @@ export default {
       navActive: 0,
       images: [
         { url: require("../assets/s-banner1.jpg") },
-        { url: require("../assets/s-banner2.jpg") }
+        { url: require("../assets/s-banner2.jpg") },
+        { url: require("../assets/s-banner3.jpg") }
       ],
       gridList: [
         {
@@ -116,6 +117,7 @@ export default {
 .van-swipe-item img {
   float: left;
   width: 100%;
+  height: 100%;
 }
 .page-header {
   background: #ffffff;

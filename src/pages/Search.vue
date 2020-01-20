@@ -14,11 +14,11 @@
       <div v-if="showVal">
         <div class='search-history-title'>搜索历史</div>
         <div class='search-cell'>
-          <div class='search-option'>手机</div>
-          <div class='search-option'>衣服</div>
-          <div class='search-option'>化妆品</div>
-          <div class='search-option'>首饰</div>
-          <div class='search-option'>皮包</div>
+          <div class='search-option'>路虎</div>
+          <div class='search-option'>宝马</div>
+          <div class='search-option'>宾利</div>
+          <div class='search-option'>奔驰</div>
+          <div class='search-option'>福特</div>
         </div>
       </div>
       <div v-else>
@@ -46,19 +46,19 @@ export default {
       searchListSet:[
         {
           id: 1,
-          title: 'Iphone6sPlus'
+          title: '路虎'
         },
         {
           id: 2,
-          title: '华为荣耀'
+          title: '奔驰'
         },
         {
           id: 3,
-          title: '一加'
+          title: '宝马'
         },
         {
           id: 4,
-          title: 'OPPO'
+          title: '福特'
         }
       ],
       showVal: true
